@@ -1,2 +1,2 @@
-- (https://github.com/sharkdp/bat)[bat]
-- (https://stedolan.github.io/jq/)[jq]
+- [bat](https://github.com/sharkdp/bat)
+- [jq](https://stedolan.github.io/jq/)
