@@ -4,7 +4,7 @@ Awesome ssh pro-tips!
 
 ## ProxyJump
 One common pattern is to use a jumpgate to log in at customer site. To simplify
-loging in to the hosts on the inside you could use the optipn `ProxyJump` in
+loging in to the hosts on the inside you could use the option `ProxyJump` in
 your `$HOME/.ssh/config`.
 Note that `jumpgate.customersite.se` is excluded in the Host line.
 
