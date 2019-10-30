@@ -1,2 +1,3 @@
 - [bat](https://github.com/sharkdp/bat)
 - [jq](https://stedolan.github.io/jq/)
+- [z](https://github.com/rupa/z)
