@@ -1,6 +1,9 @@
 # Git
 Awesome git pro-tips!
 
+## Generate .gitignore files
+[gitignore.io](https://www.gitignore.io)
+
 ## Path-specific configuration
 When working as a consultant you will be exposed to many different employers and 
 most likely they give you a separate e-mail account.
