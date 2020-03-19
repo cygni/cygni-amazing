@@ -17,6 +17,17 @@ Host *.customersite.se !jumpgate.customersite.se
     ProxyJump awesomejumpaccount@jumpgate.customersite.se
 ```
 
+## ProxyCommand
+ProxyJump may be prohibited on the jumpgate. To make it possible to use a similar pattern you could instead use the `ProxyCommand` and `nc` on the jumphost. _NOTE_ This depends on `nc` on the jumphost. 
+
+### Example
+```bash
+$ cat $HOME/.ssh/config
+Host *.customersite.se !jumpgate.customersite.se
+    User awesomserveraccount
+    ProxyCommand ssh awesomejumpaccount@jumpgate.customersite.se nc %h %p
+```
+
 ## Hosts not resolvable
 If hosts you are supposed to log in to doesn't have a resolvable hostname, you
 could add them to you `$HOME/.ssh/config`. This also works if you have `ProxyJump`
